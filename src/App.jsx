@@ -22,7 +22,7 @@ function App() {
 
       <main>
         <div className='principal'>
-          <Slogan slogan='Software Cluba' />
+          <Slogan slogan='Software Club' />
           <img className='imagenFondo' ></img>
         </div>
       </main>
