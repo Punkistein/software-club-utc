@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Punkistein/software-club-utc.git/static/css/main.3da391c1.css",
+    "main.js": "/Punkistein/software-club-utc.git/static/js/main.fd1d1371.js",
+    "static/media/main-background.png": "/Punkistein/software-club-utc.git/static/media/main-background.a4620614f96242ec4bc8.png",
+    "static/media/logoBlanco.svg": "/Punkistein/software-club-utc.git/static/media/logoBlanco.da5a37b64549c88853421af466d11022.svg",
+    "index.html": "/Punkistein/software-club-utc.git/index.html",
+    "main.3da391c1.css.map": "/Punkistein/software-club-utc.git/static/css/main.3da391c1.css.map",
+    "main.fd1d1371.js.map": "/Punkistein/software-club-utc.git/static/js/main.fd1d1371.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3da391c1.css",
+    "static/js/main.fd1d1371.js"
+  ]
+}
