@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/software-club-utc/static/css/main.d4af38f1.css",
-    "main.js": "/software-club-utc/static/js/main.e58a247c.js",
+    "main.js": "/software-club-utc/static/js/main.0e7c1f1c.js",
     "static/media/main-background.png": "/software-club-utc/static/media/main-background.a4620614f96242ec4bc8.png",
     "static/media/logoBlanco.svg": "/software-club-utc/static/media/logoBlanco.da5a37b64549c88853421af466d11022.svg",
     "index.html": "/software-club-utc/index.html",
     "main.d4af38f1.css.map": "/software-club-utc/static/css/main.d4af38f1.css.map",
-    "main.e58a247c.js.map": "/software-club-utc/static/js/main.e58a247c.js.map"
+    "main.0e7c1f1c.js.map": "/software-club-utc/static/js/main.0e7c1f1c.js.map"
   },
   "entrypoints": [
     "static/css/main.d4af38f1.css",
-    "static/js/main.e58a247c.js"
+    "static/js/main.0e7c1f1c.js"
   ]
 }
