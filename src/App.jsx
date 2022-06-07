@@ -1,6 +1,7 @@
 import './App.css';
 
 import logoDesc from './images/logoBlanco.svg';
+import logoName from './images/logo-name.svg';
 
 import Enlace from './components/Enlaces.jsx';
 import BotonLogin from './components/BotonLogin.jsx';
@@ -22,6 +23,7 @@ function App() {
 
       <main>
         <div className='principal'>
+          <img src={logoName} className='logoName' />
           <Slogan slogan='Software Club' />
           <img className='imagenFondo' ></img>
         </div>
