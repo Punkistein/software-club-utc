@@ -23,8 +23,8 @@ function App() {
 
       <main>
         <div className='principal'>
-          <img src={logoName} className='logoName' />
-          <Slogan slogan='Software Club' />
+          {/* <img src={logoName} className='logoName' /> */}
+          <Slogan changeWord='autoeducación' />
           <img className='imagenFondo' ></img>
         </div>
         <div className='proyectos'>
@@ -34,6 +34,7 @@ function App() {
         <div className='blog'>
         </div>
         <div className='contacto'>
+
         </div>
       </main>
     </div>

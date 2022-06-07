@@ -1,8 +1,12 @@
 import '../stylesheet/Slogan.css';
 
 function Slogan(props) {
-  return(
-    <h2 className='slogan'>{props.slogan}</h2>
+  return (
+    <div className='slogan'>
+      <h2 >
+        La <span>{props.changeWord}</span> es la clave del éxito.
+      </h2>
+    </div>
   )
 }
 
