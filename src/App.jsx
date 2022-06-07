@@ -27,6 +27,14 @@ function App() {
           <Slogan slogan='Software Club' />
           <img className='imagenFondo' ></img>
         </div>
+        <div className='proyectos'>
+        </div>
+        <div className='quienesSomos'>
+        </div>
+        <div className='blog'>
+        </div>
+        <div className='contacto'>
+        </div>
       </main>
     </div>
   );
