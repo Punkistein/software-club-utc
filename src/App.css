@@ -138,9 +138,17 @@
   background-position: center;
   background-attachment: fixed;
   filter: brightness(0.15);
+  z-index: -1;
 }
 
+.proyectos--titulo{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  color: #00A7E6;
 
+}
 /*-----------------------------------------------------------------*/
 /*-----------------------------------------------------------------*/
 /*--------------------------------ABOUT---------------------------*/

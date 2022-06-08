@@ -37,7 +37,8 @@ function App() {
           <img className='principal--imagenFondo' ></img>
         </section>
         <section className='proyectos' id='proj'>
-          <img className='projects--imagenFondo' ></img>
+          {/* <img className='projects--imagenFondo' ></img> */}
+          <h2 classname = 'proyectos--titulo'>Titulo</h2>
         </section>
         <section className='quienesSomos' id='about'>
           <img className='about--imagenFondo' ></img>
