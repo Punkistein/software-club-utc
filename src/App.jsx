@@ -14,17 +14,17 @@ function App() {
       <header className='menuLateral'>
         <img src={logoDesc} className='menuLateral--logoBlanco' />
         <div className='menuLateral--contenedor'>
-          <Enlace>Inicio</Enlace>
-          <Enlace>Proyectos</Enlace>
-          <Enlace>¿Quiénes Somos?</Enlace>
-          <Enlace>Blog</Enlace>
-          <Enlace>Contacto</Enlace>
-          <BotonLogin>Login</BotonLogin>
+          <Enlace href='#home'>Inicio</Enlace>
+          <Enlace href='#proj'>Proyectos</Enlace>
+          <Enlace href='#about'>¿Quiénes Somos?</Enlace>
+          <Enlace href='#blog'>Blog</Enlace>
+          <Enlace href='#contac'>Contacto</Enlace>
+          <BotonLogin >Login</BotonLogin>
         </div>
       </header>
 
       <div className='mainFlow'>
-        <section className='principal'>
+        <section className='principal' id='home'>
           <div className='principal--contenedorLeft'>
             <Slogan>
               autoeducación
@@ -36,16 +36,16 @@ function App() {
           </div>
           <img className='principal--imagenFondo' ></img>
         </section>
-        <section className='proyectos'>
+        <section className='proyectos' id='proj'>
           <img className='projects--imagenFondo' ></img>
         </section>
-        <section className='quienesSomos'>
+        <section className='quienesSomos' id='about'>
           <img className='about--imagenFondo' ></img>
         </section>
-        <section className='blog'>
+        <section className='blog' id='blog'>
           <img className='blog--imagenFondo' ></img>
         </section>
-        <section className='contacto'>
+        <section className='contacto' id='contac'>
           <img className='contact--imagenFondo' ></img>
         </section>
       </div>
