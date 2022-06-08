@@ -7,6 +7,7 @@ import logoUTC from './images/logoUTC.svg';
 import Enlace from './components/Enlaces.jsx';
 import BotonLogin from './components/BotonLogin.jsx';
 import Slogan from './components/Slogan';
+import BlogCard from './components/BlogCard';
 
 function App() {
   return (
@@ -37,12 +38,18 @@ function App() {
           <img className='principal--imagenFondo' ></img>
         </section>
         <section className='proyectos' id='proj'>
+          <h2 className='titulokein'>Titulo</h2>
           <img className='projects--imagenFondo' ></img>
         </section>
         <section className='quienesSomos' id='about'>
           <img className='about--imagenFondo' ></img>
         </section>
         <section className='blog' id='blog'>
+          <BlogCard
+            title='Proyecto 1'
+            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec euismod, nisl eget consectetur sagittis, nisl nunc'
+          />
           <img className='blog--imagenFondo' ></img>
         </section>
         <section className='contacto' id='contac'>
