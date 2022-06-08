@@ -3,6 +3,7 @@ import './App.css';
 import logoDesc from './images/logoBlanco.svg';
 import logoName from './images/logo-name.svg';
 import logoUTC from './images/logoUTC.svg';
+import ImagenQs from './images/quienes-somos.jpeg';
 
 import Enlace from './components/Enlaces.jsx';
 import BotonLogin from './components/BotonLogin.jsx';
@@ -43,6 +44,29 @@ function App() {
         </section>
         <section className='quienesSomos' id='about'>
           <img className='about--imagenFondo' ></img>
+          <img src={ImagenQs} className='imagenQs' />
+          <div className='sectionQs'>
+           <h1>Quienes somos?
+          </h1>
+          <div className="infoQs">
+          <p >
+              Somos estudiantes universitarios innovadores con responsabilidad academica,<br /><br />
+              Nuestro Presidente : Saul Guerrero , estudiante de Ingenieria de sistemas de informacion de 6to semestre , 
+              estudiante con vision ha sido quien se propone la reapertura del club de software en el ciclo 2022-2022. <br /><br />
+
+              Equipo de trabajo : <br /><br />
+              -Kevin Loja <br />
+              -Ronald Rodriguez <br />
+              -Javier Lasso <br /><br />
+
+              Estudiantes del mismo semestre de ingenieria en sistemas de informacion . <br /><br />
+              Contamos con el apoyo de la direccion de carrera de la universidad Tecnica de Cotopaxi  de parte de nuestra coordinadora Veronica Tapia </p>
+          </div>
+          <div className="imagenUtc">
+            
+          </div>
+              </div>
+
         </section>
         <section className='blog' id='blog'>
           <BlogCard

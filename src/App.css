@@ -168,6 +168,62 @@
   /* justify-content: center; */
 }
 
+/* titulo */
+.sectionQs{
+  padding: 57px;
+  font-size: 30px;
+  margin: 0;
+  z-index: 0;
+  color: #00A7E6;
+  text-align: left;
+  position: absolute; 
+}
+
+.imagenQs{
+
+  position: relative;
+  width: 500px;
+  height: 300px;
+  max-width: 50%;
+  float: left;
+  z-index: 0;
+  margin: 60px;
+  top: 9em;
+  border-radius: 40px;
+}
+/* descripcion */
+.infoQs{
+  height: 620px;
+  font-size: 18px;
+  text-align: justify;
+  max-width: 400px;
+  display: flex; 
+  color: white;
+  left: 600px;
+  position: relative;
+}
+
+.imagenUtc{
+
+  position: relative;
+  width: 500px;
+  height: 300px;
+  max-width: 50%;
+  float: left;
+  z-index: 0;
+  margin: 60px;
+  top: 9em;
+  border-radius: 40px;
+}
+
+.principal--Qs {
+  position: relative;
+  width: 75%;
+  height: 15%;
+  float: left;
+  z-index: 2;
+}
+
 .about--imagenFondo {
   position: absolute;
   width: 100%;
