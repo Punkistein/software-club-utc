@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/software-club-utc/static/css/main.d4af38f1.css",
-    "main.js": "/software-club-utc/static/js/main.0e7c1f1c.js",
+    "main.css": "/software-club-utc/static/css/main.504184f5.css",
+    "main.js": "/software-club-utc/static/js/main.3b649d64.js",
+    "static/media/contact-background.jpg": "/software-club-utc/static/media/contact-background.7af8163e21fa7f67929c.jpg",
     "static/media/main-background.png": "/software-club-utc/static/media/main-background.a4620614f96242ec4bc8.png",
+    "static/media/about-background.jpg": "/software-club-utc/static/media/about-background.c8f27be505f1143523dd.jpg",
+    "static/media/projects-background.jpg": "/software-club-utc/static/media/projects-background.005829c7b67ce907f089.jpg",
+    "static/media/blog-background.jpg": "/software-club-utc/static/media/blog-background.4f26a989ef7d28b65505.jpg",
+    "static/media/logoUTC.svg": "/software-club-utc/static/media/logoUTC.b980ab3998b359cb40b44c4e0e25b51a.svg",
+    "static/media/logo-name.svg": "/software-club-utc/static/media/logo-name.ff9039bd0b9111b4550f17f5f93c1649.svg",
     "static/media/logoBlanco.svg": "/software-club-utc/static/media/logoBlanco.da5a37b64549c88853421af466d11022.svg",
     "index.html": "/software-club-utc/index.html",
-    "main.d4af38f1.css.map": "/software-club-utc/static/css/main.d4af38f1.css.map",
-    "main.0e7c1f1c.js.map": "/software-club-utc/static/js/main.0e7c1f1c.js.map"
+    "main.504184f5.css.map": "/software-club-utc/static/css/main.504184f5.css.map",
+    "main.3b649d64.js.map": "/software-club-utc/static/js/main.3b649d64.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4af38f1.css",
-    "static/js/main.0e7c1f1c.js"
+    "static/css/main.504184f5.css",
+    "static/js/main.3b649d64.js"
   ]
 }
