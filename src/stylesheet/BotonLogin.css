@@ -1,7 +1,6 @@
 .botonLogin {
-  background-color: #4c74af;
+  background-color: #00A7E6;
   border: none;
-  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -9,9 +8,16 @@
   display: inline-block;
   font-size: 2vh;
   margin: 4px 2px;
+  margin-top: 5vmax;
   cursor: pointer;
+  transition: background-color 0.4s;
+}
+.botonLogin:hover {
+  background-color: #018bbd;
 }
 
-.botonLogin:hover {
-  background-color: #3b5986;
+.botonLogin--login{
+  color : #fff;
+  text-decoration: none;
+  font-family: Comfortaa;
 }

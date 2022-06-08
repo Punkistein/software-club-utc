@@ -2,6 +2,7 @@ import './App.css';
 
 import logoDesc from './images/logoBlanco.svg';
 import logoName from './images/logo-name.svg';
+import logoUTC from './images/logoUTC.svg';
 
 import Enlace from './components/Enlaces.jsx';
 import BotonLogin from './components/BotonLogin.jsx';
@@ -10,33 +11,44 @@ import Slogan from './components/Slogan';
 function App() {
   return (
     <div className="App">
-
       <header className='menuLateral'>
-        <img src={logoDesc} className='logoBlanco' />
-        <Enlace>Inicio</Enlace>
-        <Enlace>Proyectos</Enlace>
-        <Enlace>¿Quiénes?</Enlace>
-        <Enlace>Blog</Enlace>
-        <Enlace>Contacto</Enlace>
-        <BotonLogin>Login</BotonLogin>
+        <img src={logoDesc} className='menuLateral--logoBlanco' />
+        <div className='menuLateral--contenedor'>
+          <Enlace>Inicio</Enlace>
+          <Enlace>Proyectos</Enlace>
+          <Enlace>¿Quiénes Somos?</Enlace>
+          <Enlace>Blog</Enlace>
+          <Enlace>Contacto</Enlace>
+          <BotonLogin>Login</BotonLogin>
+        </div>
       </header>
 
-      <main>
-        <div className='principal'>
-          {/* <img src={logoName} className='logoName' /> */}
-          <Slogan changeWord='autoeducación' />
-          <img className='imagenFondo' ></img>
-        </div>
-        <div className='proyectos'>
-        </div>
-        <div className='quienesSomos'>
-        </div>
-        <div className='blog'>
-        </div>
-        <div className='contacto'>
-
-        </div>
-      </main>
+      <div className='mainFlow'>
+        <section className='principal'>
+          <div className='principal--contenedorLeft'>
+            <Slogan>
+              autoeducación
+            </Slogan>
+          </div>
+          <div className='principal--contenedorRight'>
+            <img src={logoName} className='principal--logo name' />
+            <img src={logoUTC} className='principal--logo utc' />
+          </div>
+          <img className='principal--imagenFondo' ></img>
+        </section>
+        <section className='proyectos'>
+          <img className='projects--imagenFondo' ></img>
+        </section>
+        <section className='quienesSomos'>
+          <img className='about--imagenFondo' ></img>
+        </section>
+        <section className='blog'>
+          <img className='blog--imagenFondo' ></img>
+        </section>
+        <section className='contacto'>
+          <img className='contact--imagenFondo' ></img>
+        </section>
+      </div>
     </div>
   );
 }

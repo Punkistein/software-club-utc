@@ -1,50 +1,217 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 .App {
   display: flex;
   flex-direction: row;
 }
 
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*---------------------------MENU LATERAL-----------------------------*/
 .menuLateral {
   width: 20%;
   height: 100%;
   display: flex;
-  position: fixed; /* para que no se mueva con el scroll */
+  position: fixed;
+  /* para que no se mueva con el scroll */
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #333333;
-  box-shadow: inset 10px 0px #00A7E6; /* sombra interna */
+  box-shadow: inset 10px 0px #ffffff;
+  /* sombra interna */
   align-items: center;
-  transition: all .5s ease-in-out;
+  transition: all .2s ease-in-out;
 }
+.menuLateral:hover{
+  box-shadow: inset 10px 0px #00A7E6;
+}
+
+.menuLateral--logoBlanco {
+  width: auto;
+  /* color: #00A7E6; */
+  height: 15vh;
+  transition: transform .5s ease-in-out;
+}
+.menuLateral--logoBlanco:hover{
+  transform: rotate(360deg);
+}
+
+.menuLateral--contenedor {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*----------------------------MAINFLOW----------------------------*/
+.mainFlow {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+}
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*----------------------------PRINCIPAL----------------------------*/
 
 .principal {
-  left: 20%;
-  position: absolute;
-  width: 80%;
-  height: 800px;
+  position: relative;
+  width: 100%;
+  height: 690px;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: right;
   text-align: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
-.imagenFondo{
+.principal--imagenFondo {
   position: absolute;
   width: 100%;
-  height: 800px;
+  height: 100%;
   background-image: url('./images/main-background.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
+  /* background-attachment: fixed; */
+  filter: brightness(0.15);
+}
+
+.principal--contenedorLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.principal--contenedorRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* align-items: left; */
+  padding: 7vh;
+}
+
+.principal--logo {
+  position: relative;
+  width: 75%;
+  height: 15%;
+  float: left;
+  z-index: 10;
+}
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*----------------------------PROJECTS----------------------------*/
+.proyectos {
+  position: relative;
+  width: 100%;
+  height: 690px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  text-align: center;
+  /* justify-content: center; */
+}
+.projects--imagenFondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/projects-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   filter: brightness(0.15);
 }
-.logoBlanco {
-  width: auto;
-  height: 10vh;
+
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*--------------------------------ABOUT---------------------------*/
+.quienesSomos {
+  position: relative;
+  width: 100%;
+  height: 690px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  text-align: center;
+  /* justify-content: center; */
 }
-.logoName {
-  width: auto;
-  height: 10vh;
-  z-index: 10;
+
+.about--imagenFondo {
   position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/about-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed;  */
+  filter: brightness(0.15);
+}
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*----------------------------------BLOG-------------------------*/
+.blog {
+  position: relative;
+  width: 100%;
+  height: 690px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+.blog--imagenFondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/blog-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(0.15);
+}
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*----------------------------------CONTACTO-------------------------*/
+.contacto {
+  position: relative;
+  width: 100%;
+  height: 690px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+.contact--imagenFondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/contact-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  filter: brightness(0.15);
 }

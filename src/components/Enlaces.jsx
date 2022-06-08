@@ -1,6 +1,7 @@
-import Estilos from '../stylesheet/Enlaces.css';
+import '../stylesheet/Enlaces.css';
 
 function Enlaces(props){
+  
   return (
     <a className='enlace' id='style-3'>
       {props.children}
