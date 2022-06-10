@@ -64,22 +64,18 @@ function App() {
           description='Realizamos Talleres'
           />
           </div>
-          
-          
+                    
           <div>
           <Card
            image= {Pro3}
           title='Capacitaciones'
           description='Hacemos Capacitaciones '
           />
-          {/* <article>
-          <h2 >Contamos con proyectos novedosos que te ayudaran a comprender mejor los conocimientos de programacion</h2>
           
-          </article> */}
           </div>
           <div>
           <article>
-          <h2>Contamos con proyectos novedosos que te ayudaran a comprender mejor los conocimientos de programacion</h2>
+          <h2 >Contamos con proyectos novedosos que te ayudaran a comprender mejor los conocimientos de programacion</h2>
           
           </article>
           </div>

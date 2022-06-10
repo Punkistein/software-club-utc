@@ -1,21 +1,23 @@
 .card {
     position: relative;
-    width: 100%;
-    top: 50px;
-    left: 50px;
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     align-items: baseline;
     width: 350px;
     height: 300px;
     color: #ffffff;
     text-align: center;
     display: grid;
-    
-    place-content: left;
     padding: 0;
+    margin: 10px; /* Espacio entre Tarjetas */
+    
     /* background: url('../images/Pr1.jpeg') center no-repeat; */
     background-size: cover;
     border-radius: 10px;
-    z-index: 1;
+    z-index: 0;
     overflow: hidden;
   }
   
@@ -27,10 +29,10 @@
     left: 0;
     width: 100%;
     height: calc(60% + 27px);
-    background-color: rgb(119, 208, 235);
+    background-color: rgb(0, 182, 237);
     transition: transform .5s.25s ease-in;
     opacity: 80%;
-    z-index:2;
+    z-index:1;
   }
   
   .card::before {
@@ -51,11 +53,12 @@
   
   .card__content {
     position: relative;
-     
+    top: -200px;  /*altura del contenido*/ 
+    
     opacity: 0;
     transition: opacity .25s;
     
-    z-index: 3;
+    z-index: 10;
   }
   
   .card__title {
@@ -68,7 +71,7 @@
   
   .card__description {
     font-size: 14px;
-    z-index: 4;
+    z-index: 10;
   }
   
   .card:hover::before,

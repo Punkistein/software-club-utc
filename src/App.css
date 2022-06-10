@@ -73,7 +73,7 @@ html, body, div, img {
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
-  z-index: 0;
+  z-index: 1;
 }
 /*-----------------------------------------------------------------*/
 /*-----------------------------------------------------------------*/
@@ -161,8 +161,9 @@ html, body, div, img {
 
 .proyectos--titulo{
   position: absolute;
-  left: 0px;
-  top: 0px;
+  font-size: 50px;
+  right: 100px;
+  top: 20px;
   z-index: 1;
   color: #00A7E6;
   z-index: 1;

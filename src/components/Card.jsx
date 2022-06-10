@@ -7,7 +7,7 @@ function card(props) {
   return (
 
     <article class="card">
-      <img src={props.image} className='card' />
+      <img src={props.image} className='card' alt='' />
       <div class="card__content">
       
         <h3 class="card__title">{props.title}</h3>
