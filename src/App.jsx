@@ -45,6 +45,7 @@ function App() {
         <section className='quienesSomos' id='about'>
           <img className='about--imagenFondo' ></img>
           <img src={ImagenQs} className='imagenQs' />
+          <img src={logoUTC} className='principal--logo utc' />
           <div className='sectionQs'>
            <h1>Quienes somos?
           </h1>
@@ -61,9 +62,6 @@ function App() {
 
               Estudiantes del mismo semestre de ingenieria en sistemas de informacion . <br /><br />
               Contamos con el apoyo de la direccion de carrera de la universidad Tecnica de Cotopaxi  de parte de nuestra coordinadora Veronica Tapia </p>
-          </div>
-          <div className="imagenUtc">
-            
           </div>
               </div>
 
