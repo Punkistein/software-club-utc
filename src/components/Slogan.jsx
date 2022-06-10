@@ -10,15 +10,15 @@ function Slogan(props) {
           wrapper="span"
           steps={[
             'autoeducación',
-            5000,
+            3000,
             'disciplina',
-            5000,
+            3000,
             'creatividad',
-            5000,
+            3000,
             'innovación',
-            5000,
+            3000,
             'diligencia',
-            5000,
+            3000
           ]}
         />
         <br />es la clave del éxito.
