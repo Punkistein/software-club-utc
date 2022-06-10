@@ -4,6 +4,11 @@ import logoDesc from './images/logoBlanco.svg';
 import logoName from './images/logo-name.svg';
 import logoUTC from './images/logoUTC.svg';
 
+import blogLeng from './images/blog-lenguajes.jpg';
+import blogHerr from './images/blog-herr.jpg';
+import blogEdu from './images/blog-edutech.jpg';
+import blogUTC from './images/blog-utc2022.jpeg';
+
 import Enlace from './components/Enlaces.jsx';
 import BotonLogin from './components/BotonLogin.jsx';
 import Slogan from './components/Slogan';
@@ -38,7 +43,6 @@ function App() {
           <img className='principal--imagenFondo' ></img>
         </section>
         <section className='proyectos' id='proj'>
-          <h2 className='titulokein'>Titulo</h2>
           <img className='projects--imagenFondo' ></img>
         </section>
         <section className='quienesSomos' id='about'>
@@ -46,9 +50,28 @@ function App() {
         </section>
         <section className='blog' id='blog'>
           <BlogCard
-            title='Proyecto 1'
+            title='Lenguajes de programación más demandados'
             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Donec euismod, nisl eget consectetur sagittis, nisl nunc'
+            image={blogLeng}
+          />
+          <BlogCard
+            title='Herramientas tecnológicas 2022'
+            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec euismod, nisl eget consectetur sagittis, nisl nunc'
+            image={blogHerr}
+          />
+          <BlogCard
+            title='Herramientas tecnológicas estudiantiles'
+            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec euismod, nisl eget consectetur sagittis, nisl nunc'
+            image ={blogEdu}
+          />
+          <BlogCard
+            title='La UTC en 2022'
+            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec euismod, nisl eget consectetur sagittis, nisl nunc'
+            image ={blogUTC}
           />
           <img className='blog--imagenFondo' ></img>
         </section>
