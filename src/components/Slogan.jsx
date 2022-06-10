@@ -3,7 +3,7 @@ import Typical from 'react-typical';
 function Slogan(props) {
   return (
     <div className='slogan'>
-      <h2>
+      <h2 className='slogan--words'>
         La{' '}
         <Typical
           loop={1}
