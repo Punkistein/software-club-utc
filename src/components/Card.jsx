@@ -1,13 +1,20 @@
+import '../stylesheet/Card.css';
+// import Pro1 from '../images/Pr1.jpeg';
 
-function card(props){
 
-return(<article class="card">
-<div class="card__content">
-  <h3 class="card__title">Desarrollo de Proyectos de Software</h3>
-  <p class="card__description">Desarrollamos Software</p>
-</div>
-</article>)
+function card(props) {
 
+  return (
+
+    <article class="card">
+      <img src={props.image} className='card' />
+      <div class="card__content">
+      
+        <h3 class="card__title">{props.title}</h3>
+        <p class="card__description">{props.description}</p>
+        
+      </div>
+    </article>)
 }
 
 

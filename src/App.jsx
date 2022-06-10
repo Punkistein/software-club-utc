@@ -9,6 +9,8 @@ import BotonLogin from './components/BotonLogin.jsx';
 import Slogan from './components/Slogan';
 import BlogCard from './components/BlogCard';
 import Pro1 from './images/Pr1.jpeg';
+import Pro2 from './images/Pr2.png';
+import Pro3 from './images/Pr3.png';
 import Card from './components/Card';
 
 function App() {
@@ -30,7 +32,7 @@ function App() {
         <section className='principal' id='home'>
           <div className='principal--contenedorLeft'>
             <Slogan>
-              autoeducación
+              autoeducación2
             </Slogan>
           </div>
           <div className='principal--contenedorRight'>
@@ -43,20 +45,40 @@ function App() {
           
           <img className='projects--imagenFondo' ></img>
           <h2 className = 'proyectos--titulo'>Proyectos </h2>
-          
-          {/* <a className = "card" href="...">
-            <img className = "image" src={Pro1} alt="..." />
-            <p className ="text">Desarrollo de Software  </p>
-            
-          </a> */}
           <div>
-          <Card>
+          <Card
+          image={Pro1}
+          title='Desarrollo de Software'
+          description='Desarrollamos software'
+          />
 
-          </Card>
+          <Card
+           image= {Pro2}
+          title='Talleres'
+          description='Realizamos Talleres'
+          />
           </div>
           
-
-
+          
+          <div>
+          <Card
+           image= {Pro3}
+          title='Capacitaciones'
+          description='Hacemos Capacitaciones '
+          />
+          {/* <article>
+          <h2 >Contamos con proyectos novedosos que te ayudaran a comprender mejor los conocimientos de programacion</h2>
+          
+          </article> */}
+          </div>
+          <div>
+          <article>
+          <h2>Contamos con proyectos novedosos que te ayudaran a comprender mejor los conocimientos de programacion</h2>
+          
+          </article>
+          </div>
+          
+        
         </section>
         <section className='quienesSomos' id='about'>
           <img className='about--imagenFondo' ></img>
