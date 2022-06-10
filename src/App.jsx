@@ -55,11 +55,10 @@ function App() {
           </h1>
           <div className="infoQs">
           <p >
-              Somos estudiantes universitarios innovadores con responsabilidad academica,<br /><br />
-              Nuestro Presidente : Saul Guerrero , estudiante de Ingenieria de sistemas de informacion de 6to semestre , 
-              estudiante con vision ha sido quien se propone la reapertura del club de software en el ciclo 2022-2022. <br /><br />
+              Somos estudiantes universitarios<br /><br />
 
               Equipo de trabajo : <br /><br />
+              -Saul Guerrero <br />
               -Kevin Loja <br />
               -Ronald Rodriguez <br />
               -Javier Lasso <br /><br />
