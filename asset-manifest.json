@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/software-club-utc/static/css/main.8723e73b.css",
-    "main.js": "/software-club-utc/static/js/main.639180e5.js",
+    "main.css": "/software-club-utc/static/css/main.27251e55.css",
+    "main.js": "/software-club-utc/static/js/main.5dee0e14.js",
     "static/media/blog-herr.jpg": "/software-club-utc/static/media/blog-herr.41f61d005e89434247f0.jpg",
     "static/media/blog-lenguajes.jpg": "/software-club-utc/static/media/blog-lenguajes.85029e0fd71b225a9a66.jpg",
     "static/media/contact-background.jpg": "/software-club-utc/static/media/contact-background.7af8163e21fa7f67929c.jpg",
@@ -19,11 +19,11 @@
     "static/media/logo-name.svg": "/software-club-utc/static/media/logo-name.ff9039bd0b9111b4550f17f5f93c1649.svg",
     "static/media/logoBlanco.svg": "/software-club-utc/static/media/logoBlanco.da5a37b64549c88853421af466d11022.svg",
     "index.html": "/software-club-utc/index.html",
-    "main.8723e73b.css.map": "/software-club-utc/static/css/main.8723e73b.css.map",
-    "main.639180e5.js.map": "/software-club-utc/static/js/main.639180e5.js.map"
+    "main.27251e55.css.map": "/software-club-utc/static/css/main.27251e55.css.map",
+    "main.5dee0e14.js.map": "/software-club-utc/static/js/main.5dee0e14.js.map"
   },
   "entrypoints": [
-    "static/css/main.8723e73b.css",
-    "static/js/main.639180e5.js"
+    "static/css/main.27251e55.css",
+    "static/js/main.5dee0e14.js"
   ]
 }
